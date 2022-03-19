@@ -1,18 +1,16 @@
 import React from "react";
 import "./Nav.scss";
 import { Avatar } from "@material-ui/core";
+import twitchLogo from "../../assets/images/twitch-logo.png"
 
 const Nav = () => {
   return (
     <div className="nav">
       <div className="nav__left">
-          <img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c540.png" alt="twitch logo" className="nav__left__logo" />
-            <h2 className="nav__left__text">Browse</h2>
+            <img src={twitchLogo} alt="twitch logo" className="nav__left__logo" />
             <h2 className="nav__left__text">Following</h2>
             <h2 className="nav__left__text">Browse</h2>
-            <div className="nav__left__line"></div>
-            <h2 className="nav__left__text">Esports</h2>
-            <h2 className="nav__left__text">Music</h2>
+            {/* <div className="nav__left__line"></div> */}
             <i className="nav__left__icon fa-solid fa-ellipsis-vertical"></i>
       </div>
 
