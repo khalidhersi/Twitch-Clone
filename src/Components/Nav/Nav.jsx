@@ -25,12 +25,12 @@ const Nav = () => {
       
       <div className="nav__right">
         <div className="nav__right__container">
-          <i className="nav__right__icon fa-solid fa-crown" />
-          <i className="nav__right__icon fa-solid fa-inbox" />
-          <i className="nav__right__icon fa-solid fa-comment-alt" />
-          <div className="nav__right__bits">
-            <i className="nav__right__bits__icon fa-solid fa-gem" />
-            <h4 className="nav__right__bits__text">Get Bits</h4>
+          <i className="nav__right__container__icon fa-solid fa-crown" />
+          <i className="nav__right__container__icon fa-solid fa-inbox" />
+          <i className="nav__right__container__icon fa-solid fa-comment-alt" />
+          <div className="nav__right__container__bits">
+            <i className="nav__right__container__bits__icon fa-solid fa-gem" />
+            <h4 className="nav__right__container__bits__text">Get Bits</h4>
           </div>
           <Avatar />
         </div>
