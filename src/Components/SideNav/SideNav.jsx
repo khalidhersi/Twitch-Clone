@@ -3,7 +3,9 @@ import "./SideNav.scss";
 
 const SideNav = () => {
   return (
-    <div>SideNav</div>
+    <div className='side-nav'>
+        
+    </div>
   )
 }
 

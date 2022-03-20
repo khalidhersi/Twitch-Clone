@@ -1,12 +1,12 @@
 import './App.scss';
 import Nav from './Components/Nav/Nav';
-import SideBar from './Components/SideBar/SideBar';
+import SideNav from './Components/SideNav/SideNav';
 
 function App() {
   return (
     <div className="App">
       <Nav />
-      <SideBar />
+      <SideNav />
     </div>
   );
 }
