@@ -1,6 +1,7 @@
 @import "../../assets/styles/variables";
 
 .nav{
+    color: $color-white;
     height: 5rem;
     border-bottom: 1px solid $color-black;
     display: flex;
@@ -73,12 +74,12 @@
                 align-items: center;
 
                 &__icon{
-                    margin: 20px;
-                    font-size: 1.5rem;
+                    margin: 10px;
+                    font-size: 1.6rem;
                 }
 
                 div{
-                    margin: 20px;
+                    margin: 10px;
                 }
     
                 &__bits{
@@ -86,15 +87,18 @@
                     align-items: center;
                     background-color: $line-color;
                     height: 3.5rem;
-                    padding-left: 20px;
-                    padding-right: 20px;
-                    border-radius: 15px;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                    border-radius: 10px;
     
                     &__icon{
                         margin-right: 5px;
+                        font-size: 1.6rem;
                     }
                 }
             }
         }
     }
+
+   
 
