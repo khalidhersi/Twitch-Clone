@@ -1,4 +1,5 @@
 import React from 'react'
+import RecentItem from '../RecentItem/RecentItem';
 import "./Profile.scss";
 
 const Profile = () => {
@@ -28,7 +29,7 @@ const Profile = () => {
             <div className="profile__recent">
                 <h2>Recent broadcasts</h2>
                 <div className="profile__recent__items">
-                    
+                    <RecentItem url={"https://youtu.be/gLNIVdtaW3A"} title={"Tittle of video"} />   
                 </div>
             </div>
         </div>
