@@ -18,6 +18,7 @@ const Profile = () => {
                 <i className='fas fa-bell graybg profile__top__right__icon'></i>
                 <i className='fas fa-ellipsis-v profile__top__right__icon'></i>
             </div>
+            </div>
             <div className="profile__menu">
                 <h2 className='active'>Home</h2>
                 <h2>About</h2>
@@ -29,10 +30,13 @@ const Profile = () => {
             <div className="profile__recent">
                 <h2>Recent broadcasts</h2>
                 <div className="profile__recent__items">
-                    <RecentItem url={"https://youtu.be/gLNIVdtaW3A"} title={"Tittle of video"} />   
+                    <RecentItem url={"https://www.youtube.com/watch?v=gLNIVdtaW3A&t=3029s"} title={"Tittle of video"} />   
+                    <RecentItem url={"https://www.youtube.com/watch?v=LlvBzyy-558"} title={"Tittle of video"} />   
+                    <RecentItem url={"https://www.youtube.com/watch?v=cUzklzVXJwo"} title={"Tittle of video"} />   
+                    <RecentItem url={"https://www.youtube.com/watch?v=bJEaAinrccg"} title={"Tittle of video"} />   
+                    <RecentItem url={"https://www.youtube.com/watch?v=9x2NaGkl6BI"} title={"Tittle of video"} />   
                 </div>
             </div>
-        </div>
     </div>
   )
 }

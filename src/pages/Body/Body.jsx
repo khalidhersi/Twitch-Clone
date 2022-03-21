@@ -9,7 +9,6 @@ const Body = () => {
             <Profile />
         </div>
         <div className="body__right__placeholder">
-
         </div>
     </div>
   )

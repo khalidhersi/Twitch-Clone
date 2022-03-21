@@ -15,7 +15,7 @@ const Nav = () => {
       </div>
 
       <div className="nav__center">
-        <input type="text" className="nav__center__input" />
+        <input type="text" className="nav__center__input" placeholder="Search" />
         <div className="nav__center__container">
             <i className="nav__center__container__icon fa-solid fa-magnifying-glass"></i>
         </div>

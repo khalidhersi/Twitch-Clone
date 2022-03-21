@@ -1,7 +1,9 @@
 @import "./variables";
+@font-face { font-family: Roobert; src: url('../../../../../../../../fonts/Roobert/Roobert-Regular.otf'); };
 
 :root{
     font-size: 62.5%;
+    font-family: Roobert,Inter,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
 body{
