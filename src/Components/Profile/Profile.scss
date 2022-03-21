@@ -1,0 +1,55 @@
+.profile{
+    background-color: #0e0e10;
+   &__top{
+    display: flex;
+    align-items: center;
+    &__left{
+        display: flex;
+        align-items: center;
+        flex: 1;
+
+        &__image{
+            object-fit: contain;
+            height: 100px;
+            margin: 40px;
+            border: 2px solid #35353a;
+            padding: 3px;
+        }
+    }
+    &__right{
+        font-size: 30px;
+
+        &__icon{
+            margin: 10px;
+            padding: 10px;
+            border-radius: 8px;
+            width: 60px;
+            text-align: center;
+        }
+        .graybg{
+            background-color: #35353a;
+        }
+    }
+   } 
+   &__menu{
+       display: flex;
+       margin-left: 40px;
+       margin-top: 30px;
+       margin-bottom: 55px;
+
+       h2{
+           margin-right: 15px;
+           cursor: pointer;
+           
+           i{
+               transform: rotate(45deg);
+               margin-right: -5px;
+           }
+       }
+       .active{
+           color: #a970dd;
+           border-bottom: 5px solid #a970dd;
+           padding-bottom: 10px;
+       }
+   }
+}
