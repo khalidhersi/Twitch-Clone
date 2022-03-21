@@ -1,7 +1,12 @@
 .body{
     background-color: rgb(255, 153, 0);
+    background-image: url("https://images8.alphacoders.com/856/thumb-1920-856745.jpg");
+    flex: 1;
+    display: flex;
+    height: 100vh;
+    overflow: hidden; // should be overflow
 
-    
+
     &__left{
 
     }
