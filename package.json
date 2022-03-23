@@ -1,6 +1,6 @@
 {
-  "homepage": "http://khalidhersi.github.io/Twitch-Clone",
   "name": "twitch-clone",
+  "homepage": "http://khalidhersi.github.io/Twitch-Clone",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
