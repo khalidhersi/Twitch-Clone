@@ -6,9 +6,9 @@ import "./Body.scss";
 const Body = () => {
   return (
     <div className="body">
-      <Stream />
       <div className="body__left">
-        <Profile />
+        <Stream />
+        <Profile />     
       </div>
       <div className="body__right__placeholder"></div>
     </div>

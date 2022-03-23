@@ -8,8 +8,9 @@
   overflow: scroll;
 
   &__left {
+    height: 100%;
     width: 96%;
-    margin-top: 40px;
+    // margin-top: 40px;
   }
 
   &__right__placeholder {

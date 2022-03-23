@@ -37,7 +37,7 @@ const Profile = () => {
         <h2>Recent broadcasts</h2>
         <div className="profile__recent__items">
           <RecentItem
-            url={"https://www.youtube.com/watch?v=gLNIVdtaW3A&t=3029s"}
+            url={"https://www.youtube.com/embed/VVs59XjBmAQ"}
             title={"Tittle of video"}
           />
           <RecentItem

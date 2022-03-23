@@ -5,17 +5,18 @@
   overflow: hidden;
   white-space: nowrap;
   margin-right: 20px;
-  margin-left: 40px;
   margin-top: 15px;
-  margin-bottom: 20px;
+
 
   &__details {
     display: flex;
     margin-top: 25px;
+    
     &__image {
       object-fit: contain;
       height: 60px;
       margin-right: 10px;
+      border-radius: 50%;
     }
   }
 }

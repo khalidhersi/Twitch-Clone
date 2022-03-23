@@ -5,7 +5,7 @@
   display: grid;
   place-items: center;
 
-  &__conatainer {
+  &__container {
     display: flex;
 
     &__status {
@@ -24,8 +24,8 @@
           flex: 1;
 
           &__indicator {
-            background-color: $color-white;
-            color: #1f1f23;
+            background-color: red;
+            color: white;
             border-radius: 8px;
             width: fit-content;
             padding: 5px 10px;
