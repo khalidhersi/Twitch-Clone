@@ -11,9 +11,14 @@
       &__image {
         object-fit: contain;
         height: 100px;
-        margin: 40px;
+        margin: 20px;
         border: 2px solid #35353a;
         padding: 3px;
+        border-radius: 50%;
+      }
+
+      &__details{
+        margin-right: 30px;
       }
     }
     &__right {
@@ -52,4 +57,24 @@
       padding-bottom: 10px;
     }
   }
+
+  &__recent{
+    margin-left: 40px;
+    // h2{
+    //   margin-left: 40px;
+    // }
+  }
+
+  &__categories{
+    margin-top: 40px;
+
+    h2{
+      margin-bottom: 20px;
+    }
+
+    h3{
+      margin-top: 10px;
+    }
+  }
+
 }
