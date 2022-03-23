@@ -1,27 +1,27 @@
 @import "../../assets/styles/variables";
 
-.channel{
-    cursor: pointer;
-    width: 100%;
+.channel {
+  cursor: pointer;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+  &:hover {
+    background-color: #25252c;
+  }
+
+  &__details {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin-top: 15px;
-    margin-bottom: 15px;
 
-    &:hover{
-        background-color: #25252c;
+    &__image {
+      object-fit: contain;
+      margin-right: 5px;
+      width: 40px;
+      border-radius: 50%;
     }
-
-    &__details{
-        display: flex;
-        align-items: center;
-
-        &__image{
-            object-fit: contain;
-            margin-right: 5px;
-            width: 40px;
-            border-radius: 50%;
-        }
-    }
+  }
 }

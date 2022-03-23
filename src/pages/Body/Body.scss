@@ -1,17 +1,14 @@
-.body{
-    background-color: rgb(255, 153, 0);
-    background-image: url("https://images8.alphacoders.com/856/thumb-1920-856745.jpg");
-    flex: 1;
-    display: flex;
-    height: 100vh;
-    overflow: scroll;
+.body {
+  background-color: rgb(255, 153, 0);
+  background-image: url("https://images8.alphacoders.com/856/thumb-1920-856745.jpg");
+  flex: 1;
+  display: flex;
+  height: 100vh;
+  overflow: scroll;
 
+  &__left {
+  }
 
-    &__left{
-
-    }
-
-    &__right__placeholder{
-
-    }
+  &__right__placeholder {
+  }
 }

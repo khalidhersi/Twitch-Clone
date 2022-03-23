@@ -1,18 +1,18 @@
-.item{
-    display: flex;
-    flex-direction: column;
-    width: 400px;
-    overflow: hidden;
-    white-space: nowrap;
-    margin-right: 20px;
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-right: 20px;
 
-    &__details{
-        display: flex;
-        margin-top: 25px;
-        &__image{
-            object-fit: contain;
-            height: 60px;
-            margin-right: 10px;
-        }
+  &__details {
+    display: flex;
+    margin-top: 25px;
+    &__image {
+      object-fit: contain;
+      height: 60px;
+      margin-right: 10px;
     }
+  }
 }

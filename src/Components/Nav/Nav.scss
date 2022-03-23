@@ -1,109 +1,106 @@
 @import "../../assets/styles/variables";
 
-.nav{
-    height: 5rem;
-    border-bottom: 1px solid $color-black;
+.nav {
+  height: 5rem;
+  border-bottom: 1px solid $color-black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: $nav-background;
+  z-index: 100;
+  position: sticky;
+  top: 0;
+  font-size: 1.2rem;
+
+  &__left {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    background-color: $nav-background;
-    z-index: 100;
-    position: sticky;
-    top: 0;
-    font-size: 1.2rem;
+    flex: 1;
 
-    &__left{
-        display: flex;
-        align-items: center;
-        flex: 1;
+    &__logo {
+      object-fit: contain;
+      height: 4rem;
+      margin: 5px 5px 0 0;
+    }
+    &__text {
+      margin: 20px;
+    }
+    // &__line{
+    //     border-left: 1px solid $line-color;
+    //     height: 3rem;
+    // }
+    &__icon {
+      margin-left: 15px;
+      font-size: 1.9rem;
+    }
+  }
 
-        &__logo{
-            object-fit: contain;
-            height: 4rem;
-            margin: 5px 5px 0 0;
-        }
-        &__text{
-            margin: 20px;
-        }
-        // &__line{
-        //     border-left: 1px solid $line-color;
-        //     height: 3rem;
-        // }
-        &__icon{
-            margin-left: 15px;
-            font-size: 1.9rem;
-        }
+  &__center {
+    background-color: $line-color;
+    height: 3.5rem;
+    display: flex;
+    width: 25%;
+    border-radius: 8px;
+    overflow: hidden;
+    align-items: center;
+
+    &__input {
+      outline: none;
+      background-color: transparent;
+      flex: 1;
+      margin-left: 15px;
+      font-size: large;
+      border: none;
+      color: $color-white;
     }
 
-    &__center{
+    &__container {
+      background-color: #2b2b2d;
+      width: 50px;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &__icon {
+        font-size: 2rem;
+      }
+    }
+  }
+
+  &__right {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+
+    &__container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      &__icon {
+        margin: 10px;
+        font-size: 1.6rem;
+      }
+
+      div {
+        margin: 10px;
+      }
+
+      &__bits {
+        display: flex;
+        align-items: center;
         background-color: $line-color;
         height: 3.5rem;
-        display: flex;
-        width: 25%;
-        border-radius: 8px;
-        overflow: hidden;
-        align-items: center;
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 10px;
 
-        &__input{
-            outline: none;
-            background-color: transparent;
-            flex: 1;
-            margin-left: 15px;
-            font-size: large;
-            border: none;
-            color: $color-white;
+        &__icon {
+          margin-right: 5px;
+          font-size: 1.6rem;
         }
-        
-        &__container{
-            background-color: #2b2b2d;
-            width: 50px;
-            height: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-
-            &__icon{
-                font-size: 2rem;
-            }
-        }
+      }
     }
-
-        &__right{
-            display: flex;
-            flex: 1;
-            justify-content: flex-end;
-
-            &__container{
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-
-                &__icon{
-                    margin: 10px;
-                    font-size: 1.6rem;
-                }
-
-                div{
-                    margin: 10px;
-                }
-    
-                &__bits{
-                    display: flex;
-                    align-items: center;
-                    background-color: $line-color;
-                    height: 3.5rem;
-                    padding-left: 15px;
-                    padding-right: 15px;
-                    border-radius: 10px;
-    
-                    &__icon{
-                        margin-right: 5px;
-                        font-size: 1.6rem;
-                    }
-                }
-            }
-        }
-    }
-
-   
-
+  }
+}

@@ -1,7 +1,7 @@
-import './App.scss';
-import Nav from './Components/Nav/Nav';
-import SideNav from './Components/SideNav/SideNav';
-import Body from './pages/Body/Body';
+import "./App.scss";
+import Nav from "./Components/Nav/Nav";
+import SideNav from "./Components/SideNav/SideNav";
+import Body from "./pages/Body/Body";
 
 function App() {
   return (
