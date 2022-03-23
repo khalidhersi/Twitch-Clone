@@ -58,9 +58,15 @@ const Profile = () => {
           />
         </div>
         <div className="profile__categories">
-            <h2 className="profile__categories__text">KLD's recently streamed Categories</h2>
-            <img src="https://static-cdn.jtvnw.net/ttv-boxart/Elden%20Ring.jpg" alt="game image" className="profile__categories__image" />
-            <h3>Entertainment</h3>
+          <h2 className="profile__categories__text">
+            KLD's recently streamed Categories
+          </h2>
+          <img
+            src="https://static-cdn.jtvnw.net/ttv-boxart/Elden%20Ring.jpg"
+            alt="game image"
+            className="profile__categories__image"
+          />
+          <h3>Entertainment</h3>
         </div>
       </div>
     </div>

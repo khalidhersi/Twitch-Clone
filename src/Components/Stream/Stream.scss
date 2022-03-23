@@ -1,0 +1,51 @@
+@import "../../assets/styles/variables";
+
+.stream {
+  height: 50%;
+  display: grid;
+  place-items: center;
+
+  &__conatainer {
+    display: flex;
+
+    &__status {
+      width: 400px;
+      height: 295px;
+      background-color: #1f1f23;
+      margin-right: 30px;
+
+      &__container {
+        margin: 25px;
+        display: flex;
+        flex-direction: column;
+        height: 245px;
+
+        &__top {
+          flex: 1;
+
+          &__indicator {
+            background-color: $color-white;
+            color: #1f1f23;
+            border-radius: 8px;
+            width: fit-content;
+            padding: 5px 10px;
+          }
+          &__text {
+            font-size: 3.5rem;
+          }
+        }
+      }
+      &__info {
+        display: flex;
+        align-items: center;
+        &__icon {
+          margin-right: 20px;
+        }
+      }
+    }
+    &__video__embed {
+      height: 295px;
+      width: 500px;
+    }
+  }
+}

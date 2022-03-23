@@ -17,7 +17,7 @@
         border-radius: 50%;
       }
 
-      &__details{
+      &__details {
         margin-right: 30px;
       }
     }
@@ -58,23 +58,25 @@
     }
   }
 
-  &__recent{
+  &__recent {
     margin-left: 40px;
     // h2{
     //   margin-left: 40px;
     // }
+    &__items{
+      display: flex;
+    }
   }
 
-  &__categories{
+  &__categories {
     margin-top: 40px;
 
-    h2{
+    h2 {
       margin-bottom: 20px;
     }
 
-    h3{
+    h3 {
       margin-top: 10px;
     }
   }
-
 }
